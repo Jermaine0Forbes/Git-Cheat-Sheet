@@ -1,30 +1,100 @@
-body{ background-image:url('pink.jpg'); background-repeat:repeat; }
+/*--------------------------- general ------------------------------*/
 
-.container { width:80%; margin:auto;}
+body
+{
+	
+}
+
+div:before,
+div:after 
+{
+content:"";
+display:table;
+}
+
+div:after 
+{
+clear:both;
+}
+
+div 
+{
+zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+
+/*--------------------------- container------------------------------*/
+.container 
+{ 
+width:80%; 
+margin:auto;
+}
 
 article
 { 
-background:white;  color:pink; border: outset #FF9999 7px; height:800px; width: 70%;
-border-radius: 15px; box-shadow: 2px 2px 3px 3px black;
-margin-left:100px; opacity: 0.8;  
+background:white; 
+ color:pink;
+ border: outset #FF9999 7px; 
+ height:800px;
+ width: 70%;
+border-radius: 15px;
+ box-shadow: 2px 2px 3px 3px black;
+margin-left:100px; 
+opacity: 0.8;  
 }
 
-header{ color:deeppink; font-family :georgia; font-size:50px; text-align:center;}
+header
+{ 
+color:deeppink; 
+font-family :georgia; 
+font-size:50px; 
+text-align:center;
+}
 
-aside{ background: white; opacity:0.8  ; height:800px ; width:200px; float:right; 
+/*--------------------------- sidebar------------------------------*/
+aside
+{ 
+background: white; 
+opacity:0.8  ; 
+height:800px ; 
+width:200px; 
+float:right; 
 border: solid #FF9999 5px; 
 }
 
-a:hover{ color:white;}
+a:hover
+{ 
+color:white;
+}
 
-a{  
- font-family:arial black; text-decoration:none; font-size:32px;  color:deeppink;
- }
+a
+{  
+ font-family:arial black; 
+ text-decoration:none; 
+ font-size:32px;  
+ color:deeppink;
+}
  
-ol{ list-style-type:none; display:inline; }
+ol
+{ 
+list-style-type:none; 
+display:inline; 
+}
 
-li{margin-bottom:20px;  display:box; background-color:#FF9999;text-align:center;
- border-bottom-style: dashed; border-bottom-color:deeppink; border:bottom-size:5px;
- }
+li
+{
+margin-bottom:20px;  
+display:box; 
+background-color:#FF9999;
+text-align:center;
+border-bottom-color:deeppink; 
+
+}
  
- li:hover{background-color:#FFCCCC;  color:white;}
+li:hover
+{
+background-color:#FFCCCC;  
+color:white;
+}
+ 
+/*--------------------------- footer ------------------------------*/ 
