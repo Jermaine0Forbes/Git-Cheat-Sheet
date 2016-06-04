@@ -1,0 +1,35 @@
+commit dcb15e2c9b04c037a212b8fc404289e1422267aa
+Author: Jermaine Forbes <jermaine0forbes@gmail.com>
+Date:   Sat Jun 4 12:34:09 2016 -0400
+
+    Altered the html and css and I created a commit txt file
+
+commit 32eb4b65b1a3192edd5e695bcb35da6f6ced648e
+Author: Jermaine Forbes <jermaine0forbes@gmail.com>
+Date:   Sat Jun 4 09:58:02 2016 -0400
+
+    Changed css theme with black and pink
+
+commit fa0855cf5b79916a02ab15eb6494d84b36dc2556
+Author: Jermaine Forbes <jermaine0forbes@gmail.com>
+Date:   Wed May 25 11:16:54 2016 -0400
+
+    Turning sucky.html into a git command reference guide
+
+commit 17e48cee802de421c4f9a75c5506941afd2d135f
+Author: Jermaine Forbes <jermaine0forbes@gmail.com>
+Date:   Tue May 24 10:37:05 2016 -0400
+
+    New changes to css file
+
+commit 0c270761d88b8fc1918d90ba044d9e85cad2abe4
+Author: Jermaine Forbes <jermaine0forbes@gmail.com>
+Date:   Sun May 22 18:06:41 2016 -0400
+
+    Commited the css and the images
+
+commit 3ee88eb8e6007c75ddbe6c794d17bd87a89c231b
+Author: Jermaine Forbes <jermaine0forbes@gmail.com>
+Date:   Sun May 22 18:05:44 2016 -0400
+
+    Changed sucky into a better managed site

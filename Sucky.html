@@ -23,21 +23,21 @@
 				<h2>Common Git Commands</h2>
 					<dl>
 						<dt>git revert "insert commit id number"</dt><dd>It reverts an old commit an allows you to change the message of the commit</dd>
-						<dt> git reset --soft</dt><dd>moves the pointer to another commit</dd>
-						<dt> git reset --mixed</dt><dd>changes staging index to match repository/folder</dd>
-						<dt> git reset --hard</dt><dd>changes staging index and working directory to match repository/folder</dd>
+						<dt> git reset --soft "insert commit id number"</dt><dd>allows you to go back to a older commit and make it the most recent one. In addition, you can also undo the the changes by using  the soft reset with original recent commit id</dd>
+						<dt> git reset --mixed "insert commit id number"</dt><dd>changes staging index to match repository/folder</dd>
+						<dt> git reset --hard "insert commit id number"</dt><dd>changes staging index and working directory to match repository/folder</dd>
 						<dt>git rm</dt><dd></dd>
 						<dt>git mv</dt><dd>changes the name  or moves the file into a another repository/folder</dd>
 						<dt>git checkout "insert commit id number" -- "insert file name" </dt><dd>retrieve old versions of a file that has been  committed</dd>
 						<dt>q</dt><dd> Use this command to quit the git log list</dd>
 						<dt>git reset HEAD "insert file name" </dt><dd>resets files that are in the staging index</dd>
-						<dt>git commit  --ammend -m "Insert message"</dt><dd>Adds modified files to a recent commited log </dd>
+						<dt>git commit  --amend -m "Insert message"</dt><dd>Adds modified files to a recent commited log </dd>
 						<dt><ul>
                             <li>Step1: git checkout "insert commit id number" -- "insert file name"</li>
                             <li>Step2: git reset HEAD "insert file name"</li>
                             <li>Step3: git checkout "insert file name"</li>
                             </ul></dt><dd>To retrieve an old file in a commit log, and to revert back to the original file</dd>
-						<dt></dt><dd></dd>
+						<dt>git add .</dt><dd> adds all the modified files to the staging index</dd>
 						<dt></dt><dd></dd>
 						<dt></dt><dd></dd>
 						<dt></dt><dd></dd>
