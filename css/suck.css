@@ -2,7 +2,9 @@
 
 body
 {
-background:pink;	
+background:black;
+font-family :monospace, serif; 
+color:pink;
 }
 
 div:before,
@@ -22,6 +24,12 @@ div
 zoom:1; /* For IE 6/7 (trigger hasLayout) */
 }
 
+h1,h2, h3
+{
+margin:10px;    
+font-family :georgia;  
+font-weight:300;
+}
 
 /*--------------------------- container------------------------------*/
 .container 
@@ -29,60 +37,58 @@ zoom:1; /* For IE 6/7 (trigger hasLayout) */
 width:80%; 
 min-width:1170px;
 margin:auto;
+position:relative;
 }
 
 article#abs-container
 { 
  
  color:pink;
- border: outset #FF9999 7px; 
- min-height:800px;
- width: 70%;
+ border: solid pink 7px; 
+min-height:800px;
+width: 60%;
 border-radius: 15px;
- box-shadow: 2px 2px 3px 3px black;
-margin-left:100px; 
 position:relative; 
 }
 
-.abs
-{
-position:absolute;
-width:100%;
-height:100%;	
-}
 
-#op-back
-{
-z-index:-1;
-opacity:0.5;
-background:white;	
-}
+
 
 #content
 {
-color:black;
+color:pink;
 padding: 10px 20px;
-width:96.2%
+
 }
 
 header#title
 { 
-color:deeppink; 
+color:pink; 
 font-family :georgia; 
 font-size:50px; 
 text-align:center;
 text-transform:uppercase;
+margin-bottom:1em;
+}
+/* dl, dt, dd */
+
+dd
+{
+    color:white;
+}
+
+dt{
+ font-size:1.2em;   
 }
 
 /*--------------------------- sidebar------------------------------*/
 aside
 { 
-background: white; 
-opacity:0.8  ; 
+
 height:800px ; 
-width:200px; 
+width:30%; 
 float:right; 
-border: solid #FF9999 5px; 
+border: solid pink 5px; 
 }
 
 a:hover
@@ -121,3 +127,8 @@ color:white;
 }
  
 /*--------------------------- footer ------------------------------*/ 
+footer
+{
+border: solid pink 5px; 
+margin-top:50px;
+}
