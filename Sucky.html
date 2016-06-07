@@ -22,22 +22,55 @@
 			 <section class="abs" id="content">
 				<h2>Common Git Commands</h2>
 					<dl>
-						<dt>git revert "insert commit id number"</dt><dd>It reverts an old commit an allows you to change the message of the commit</dd>
-						<dt> git reset --soft "insert commit id number"</dt><dd>allows you to go back to a older commit and make it the most recent one. In addition, you can also undo the the changes by using  the soft reset with original recent commit id</dd>
-						<dt> git reset --mixed "insert commit id number"</dt><dd>changes staging index to match repository/folder</dd>
-						<dt> git reset --hard "insert commit id number"</dt><dd>changes staging index and working directory to match repository/folder</dd>
-						<dt>git rm</dt><dd></dd>
-						<dt>git mv</dt><dd>changes the name  or moves the file into a another repository/folder</dd>
-						<dt>git checkout "insert commit id number" -- "insert file name" </dt><dd>retrieve old versions of a file that has been  committed</dd>
+						<dt>git revert <u>insert commit id number</u></dt><dd>It reverts an old commit an allows you to change the message of the commit</dd>
+                        
+						<dt> git reset --soft <u>insert commit id number</u></dt><dd>allows you to go back to a older commit and make it the most recent one. In addition, you can also undo the the changes by using  the soft reset with original recent commit id</dd>
+                        
+						<dt> git reset --mixed <u>insert commit id number</u></dt><dd>Is very similar to  reset soft, except if you want to undo changes you have to use the <b>git reset HEAD "insert file name"</b> and then do git reset --mixed. To finally revert back to the original commit you had in your log</dd>
+                        
+						<dt> git reset --hard <u>insert commit id number</u></dt><dd>changes staging index and working directory to match repository/folder</dd>
+						<dt>git rm <u>insert file name</u></dt><dd> To remove files</dd>
+                        
+						<dt>git mv <u>previous file name</u> <u>new file name</u> OR <br> git mv <u>insert file name</u> <u>new folder/file name</u></dt><dd>changes the name  or moves the file into a another repository/folder</dd>
+                        	
+                        <dt><ul>
+                            <li>Rename file in folder</li>
+                            <li>git rm <u>previous file name</u></li>
+                            <li>git add <u>new file name</u></li>
+                            </ul>
+                        </dt><dd>git will be able to tell that you have renamed the file</dd>
+                        
+						<dt>git checkout <u>insert commit id number</u> -- <u>insert file name</u> </dt><dd>retrieve old versions of a file that has been  committed</dd>
+                        
 						<dt>q</dt><dd> Use this command to quit the git log list</dd>
-						<dt>git reset HEAD "insert file name" </dt><dd>resets files that are in the staging index</dd>
+                        
+						<dt>git reset HEAD <u>insert file name</u> </dt><dd>resets files that are in the staging index</dd>
+                        
 						<dt>git commit  --amend -m "Insert message"</dt><dd>Adds modified files to a recent commited log </dd>
 						<dt><ul>
-                            <li>Step1: git checkout "insert commit id number" -- "insert file name"</li>
-                            <li>Step2: git reset HEAD "insert file name"</li>
-                            <li>Step3: git checkout "insert file name"</li>
+                            <li>Step1: git checkout <u>insert commit id number</u> -- <u>insert file name</u></li>
+                            <li>Step2: git reset HEAD <u>insert file name</u></li>
+                            <li>Step3: git checkout <u>insert file name</u></li>
                             </ul></dt><dd>To retrieve an old file in a commit log, and to revert back to the original file</dd>
 						<dt>git add .</dt><dd> adds all the modified files to the staging index</dd>
+						<dt>git commit -am "insert message"</dt><dd> Adds files that have been modified, and commits them with a message</dd>
+						<dt>git clean -n</dt><dd>Checks what unmarked files, git can remove</dd>
+						<dt>git clean -f</dt><dd> Removes the unmarked files that hasn't been added in the staging index</dd>
+						<dt>ls -la</dt><dd>Lists all the hidden files in the directory/folder</dd>
+						<dt>ls</dt><dd>Lists all the files in the directory/folder</dd>
+						<dt><u>insert text editor</u> .gitignore</dt><dd>Using this command will create a gitignore file in the text editor that you have input.In addition, you can
+                        specify what you want ignored in the gitignore file</dd>
+					
+						<dt></dt><dd></dd>
+						<dt></dt><dd></dd>
+						<dt></dt><dd></dd>
+						<dt></dt><dd></dd>
+						<dt></dt><dd></dd>
+						<dt></dt><dd></dd>
+						<dt></dt><dd></dd>
+						<dt></dt><dd></dd>
+						<dt></dt><dd></dd>
+						<dt></dt><dd></dd>
 						<dt></dt><dd></dd>
 						<dt></dt><dd></dd>
 						<dt></dt><dd></dd>
@@ -49,7 +82,7 @@
 			
 		</article>
 		<footer>
-			<h3>This is a footer</h3>
+			<h4>Created by Jermaine Forbes 2016</h4>
 		</footer>
 	</div>
 </body>
