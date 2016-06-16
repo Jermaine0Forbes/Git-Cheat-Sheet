@@ -1,0 +1,3 @@
+- blobs are whatever files that are in the tree listing, and trees are folders that have other files in them. You can go back from to previous committed file when you add 
+a caret to the master word in the expression... git ls-tree master^ ... This will go back from a previous commit and you can go back to another commit by adding another caret
+alongside the other other one ... git ls-tree master^^

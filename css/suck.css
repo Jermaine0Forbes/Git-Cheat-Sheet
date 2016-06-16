@@ -75,10 +75,12 @@ margin-bottom:1em;
 dd
 {
     color:white;
+margin-bottom:1em;
 }
 
 dt{
- font-size:1.2em;   
+ font-size:1.2em; 
+margin-top:1em;    
 }
 
 /*--------------------------- sidebar------------------------------*/

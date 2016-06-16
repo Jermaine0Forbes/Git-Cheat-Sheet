@@ -61,11 +61,28 @@
 						<dt><u>insert text editor</u> .gitignore</dt><dd>Using this command will create a gitignore file in the text editor that you have input.In addition, you can
                         specify what you want ignored in the gitignore file</dd>
 					
-						<dt></dt><dd></dd>
-						<dt></dt><dd></dd>
-						<dt></dt><dd></dd>
-						<dt></dt><dd></dd>
-						<dt></dt><dd></dd>
+						<dt>git config --global core.excludesfile ~/.gitignore_global</dt><dd>will ignore all files</dd>
+						<dt>mkdir <u>insert new folder name</u></dt><dd>To make a new folder</dd>
+						<dt>touch <u>insert new folder name</u></dt><dd>creates a file that doesn't exist</dd>
+						<dt>git ls-tree</dt><dd>list the contents of a tree object. In other words, lists the content within the folder</dd>
+						<dt>git help <u>insert git command</u></dt><dd>Opens up a web page that explains what the command does and the different ways you can use it</dd>
+						<dt>git log --oneline</dt><dd>Gives you a one line description of each commit log</dd>
+						<dt>git log --since="<u>Year-Month-Date</u>"</dt><dd>shows all the commit log since that date</dd>
+						<dt>git log --until="<u>Year-Month-Date</u>"</dt><dd>shows all the commit logs until specified date</dd>
+						<dt>git log --author="<u>insert name</u>"</dt><dd>searches the commit log by the authors name</dd>
+						<dt>git log --grep="insert any keyword"</dt><dd>searches the commit log that has the keyword/s specified</dd>
+						<dt>git log <u>insert commit id number</u>.. <u>insert file name</u></dt><dd>searches the commit id through the most previous commit log to see if there were 
+                        any changes to the file name</dd>
+						<dt><ol>
+                            <li>Step1:git log <u>insert commit id number</u>.. <u>insert file name</u> </li>
+                            <li>Step2:git log -p </li>
+                            </ol></dt><dd>See the differences in the file that were you were searching with the commit log</dd>
+						<dt>
+                        <ol>
+                        <li>Step1: git log --oneline</li>
+                        <li>Step1: git show <u>insert commit id number</u></li>
+                            </ol>
+                        </dt><dd>shows the commit message and the git difference in the commit you want to see</dd>
 						<dt></dt><dd></dd>
 						<dt></dt><dd></dd>
 						<dt></dt><dd></dd>
