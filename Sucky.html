@@ -15,37 +15,37 @@
 		<header id="title"> git commands</header>
 		<aside>
 			<h3>This is the side content</h3>
-			
+
 		</aside>
 		<article id="abs-container">
-			 
+
 			 <section class="abs" id="content">
 				<h2>Common Git Commands</h2>
 					<dl>
 						<dt>git revert <u>insert commit id number</u></dt><dd>It reverts an old commit an allows you to change the message of the commit</dd>
-                        
+
 						<dt> git reset --soft <u>insert commit id number</u></dt><dd>allows you to go back to a older commit and make it the most recent one. In addition, you can also undo the the changes by using  the soft reset with original recent commit id</dd>
-                        
+
 						<dt> git reset --mixed <u>insert commit id number</u></dt><dd>Is very similar to  reset soft, except if you want to undo changes you have to use the <b>git reset HEAD "insert file name"</b> and then do git reset --mixed. To finally revert back to the original commit you had in your log</dd>
-                        
+
 						<dt> git reset --hard <u>insert commit id number</u></dt><dd>changes staging index and working directory to match repository/folder</dd>
 						<dt>git rm <u>insert file name</u></dt><dd> To remove files</dd>
-                        
+
 						<dt>git mv <u>previous file name</u> <u>new file name</u> OR <br> git mv <u>insert file name</u> <u>new folder/file name</u></dt><dd>changes the name  or moves the file into a another repository/folder</dd>
-                        	
+
                         <dt><ul>
                             <li>Rename file in folder</li>
                             <li>git rm <u>previous file name</u></li>
                             <li>git add <u>new file name</u></li>
                             </ul>
                         </dt><dd>git will be able to tell that you have renamed the file</dd>
-                        
+
 						<dt>git checkout <u>insert commit id number</u> -- <u>insert file name</u> </dt><dd>retrieve old versions of a file that has been  committed</dd>
-                        
+
 						<dt>q</dt><dd> Use this command to quit the git log list</dd>
-                        
+
 						<dt>git reset HEAD <u>insert file name</u> </dt><dd>resets files that are in the staging index</dd>
-                        
+
 						<dt>git commit  --amend -m "Insert message"</dt><dd>Adds modified files to a recent commited log </dd>
 						<dt><ul>
                             <li>Step1: git checkout <u>insert commit id number</u> -- <u>insert file name</u></li>
@@ -60,10 +60,10 @@
 						<dt>ls</dt><dd>Lists all the files in the directory/folder</dd>
 						<dt><u>insert text editor</u> .gitignore</dt><dd>Using this command will create a gitignore file in the text editor that you have input.In addition, you can
                         specify what you want ignored in the gitignore file</dd>
-					
+
 						<dt>git config --global core.excludesfile ~/.gitignore_global</dt><dd>will ignore all files</dd>
 						<dt>mkdir <u>insert new folder name</u></dt><dd>To make a new folder</dd>
-						<dt>touch <u>insert new folder name</u></dt><dd>creates a file that doesn't exist</dd>
+						<dt>touch <u>insert new file name</u></dt><dd>creates a file that doesn't exist</dd>
 						<dt>git ls-tree</dt><dd>list the contents of a tree object. In other words, lists the content within the folder</dd>
 						<dt>git help <u>insert git command</u></dt><dd>Opens up a web page that explains what the command does and the different ways you can use it</dd>
 						<dt>git log --oneline</dt><dd>Gives you a one line description of each commit log</dd>
@@ -71,7 +71,7 @@
 						<dt>git log --until="<u>Year-Month-Date</u>"</dt><dd>shows all the commit logs until specified date</dd>
 						<dt>git log --author="<u>insert name</u>"</dt><dd>searches the commit log by the authors name</dd>
 						<dt>git log --grep="insert any keyword"</dt><dd>searches the commit log that has the keyword/s specified</dd>
-						<dt>git log <u>insert commit id number</u>.. <u>insert file name</u></dt><dd>searches the commit id through the most previous commit log to see if there were 
+						<dt>git log <u>insert commit id number</u>.. <u>insert file name</u></dt><dd>searches the commit id through the most previous commit log to see if there were
                         any changes to the file name</dd>
 						<dt><ol>
                             <li>Step1:git log <u>insert commit id number</u>.. <u>insert file name</u> </li>
@@ -83,6 +83,25 @@
                         <li>Step1: git show <u>insert commit id number</u></li>
                             </ol>
                         </dt><dd>shows the commit message and the git difference in the commit you want to see</dd>
+						<dt>
+                        <ol>
+                        <li>Step1: git log --oneline</li>
+                        <li>Step1: git diff <u>insert commit id number</u></li>
+                            </ol></dt><dd>shows the difference between the recent commit to the commit id that you referenced</dd>
+						<dt><ol>
+                        <li>Step1: git log --oneline</li>
+                        <li>Step1: git diff <u>insert newer commit id number</u>..<u>insert older commit id number</u></li>
+                            </ol></dt><dd> shows the difference between the two commit logs you have entered</dd>
+						<dt>git branch</dt><dd>shows the all the branches we have in our local repository and shows the current branch that has been selected</dd>
+						<dt>git branch <u>insert new branch name</u></dt><dd>creates a new branch</dd>
+						<dt>git checkout <u>insert different branch name</u></dt><dd> selects a different branch from the repository</dd>
+						<dt>git checkout -b</dt><dd>creates a new branch and switches to it</dd>
+						<dt>git diff <u>insert one branch</u>..<u>insert other branch</u></dt><dd>compares the differences in branches</dd>
+						<dt>git diff --color-words <u>insert one branch</u>..<u>insert other branch</u></dt><dd>compares the differences in branches on oneline</dd>
+						<dt>git branch --merged</dt><dd>shows which branches has all the commits to the selected branch</dd>
+						<dt>git branch -m <u>old branch name</u> <u>new branch name</u></dt><dd>changes the name of a branch</dd>
+						<dt>git branch -d <u>insert branch name</u></dt><dd>Deletes a branch</dd>
+						<dt>cd ..</dt><dd>goes back a folder</dd>
 						<dt></dt><dd></dd>
 						<dt></dt><dd></dd>
 						<dt></dt><dd></dd>
@@ -91,12 +110,16 @@
 						<dt></dt><dd></dd>
 						<dt></dt><dd></dd>
 						<dt></dt><dd></dd>
-					
-					
+						<dt></dt><dd></dd>
+						<dt></dt><dd></dd>
+						<dt></dt><dd></dd>
+
+
+
 					</dl>
-				
+
 			 </section>
-			
+
 		</article>
 		<footer>
 			<h4>Created by Jermaine Forbes 2016</h4>
