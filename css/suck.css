@@ -3,52 +3,52 @@
 body
 {
 background:black;
-font-family :monospace, serif; 
+font-family :monospace, serif;
 color:pink;
 }
 
 div:before,
-div:after 
+div:after
 {
 content:"";
 display:table;
 }
 
-div:after 
+div:after
 {
 clear:both;
 }
 
-div 
+div
 {
 zoom:1; /* For IE 6/7 (trigger hasLayout) */
 }
 
 h1,h2, h3, h4
 {
-margin:10px;    
-font-family :georgia;  
+margin:10px;
+font-family :georgia;
 font-weight:300;
 }
 
 /*--------------------------- container------------------------------*/
-.container 
-{ 
-width:80%; 
+.container
+{
+width:80%;
 min-width:1170px;
 margin:auto;
 position:relative;
 }
 
 article#abs-container
-{ 
- 
+{
+
  color:pink;
- border: solid pink 7px; 
+ border: solid pink 7px;
 min-height:800px;
 width: 60%;
 border-radius: 15px;
-position:relative; 
+position:relative;
 }
 
 
@@ -62,10 +62,10 @@ padding: 10px 20px;
 }
 
 header#title
-{ 
-color:pink; 
-font-family :georgia; 
-font-size:50px; 
+{
+color:pink;
+font-family :georgia;
+font-size:50px;
 text-align:center;
 text-transform:uppercase;
 margin-bottom:1em;
@@ -79,58 +79,61 @@ margin-bottom:1em;
 }
 
 dt{
- font-size:1.2em; 
-margin-top:1em;    
+ font-size:1.2em;
+margin-top:1em;
 }
 
 /*--------------------------- sidebar------------------------------*/
 aside
-{ 
+{
 
-height:800px ; 
-width:30%; 
-float:right; 
-border: solid pink 5px; 
+height:800px ;
+width:30%;
+float:right;
+border: solid pink 5px;
+border-radius: 15px;
+text-align:center;
 }
 
 a:hover
-{ 
+{
 color:white;
 }
 
 a
-{  
- font-family:arial black; 
- text-decoration:none; 
- font-size:32px;  
+{
+ font-family:arial black;
+ text-decoration:none;
+ font-size:32px;
  color:deeppink;
 }
- 
+
 ul.side-links
-{ 
-list-style-type:none; 
-display:inline; 
+{
+list-style-type:none;
+display:inline;
 }
 
 .side-links li
 {
-margin-bottom:20px;  
-display:box; 
+margin-bottom:20px;
+display:box;
 background-color:#FF9999;
 text-align:center;
-border-bottom-color:deeppink; 
+border-bottom-color:deeppink;
 
 }
- 
+
 li:hover
 {
-background-color:#FFCCCC;  
+background-color:#FFCCCC;
 color:black;
 }
- 
-/*--------------------------- footer ------------------------------*/ 
+
+/*--------------------------- footer ------------------------------*/
 footer
 {
-border: solid pink 5px; 
+border: solid pink 5px;
 margin-top:50px;
+border-radius: 15px;
 }
