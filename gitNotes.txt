@@ -1,3 +1,13 @@
-- blobs are whatever files that are in the tree listing, and trees are folders that have other files in them. You can go back from to previous committed file when you add 
+- blobs are whatever files that are in the tree listing, and trees are folders that have other files in them. You can go back from to previous committed file when you add
 a caret to the master word in the expression... git ls-tree master^ ... This will go back from a previous commit and you can go back to another commit by adding another caret
 alongside the other other one ... git ls-tree master^^
+
+- COLLABORATE WITH PEOPLE ON GITHUB
+  1.if you want someone to collaborate on your git project make sure you go to the settings menu that will  be on the right hand side in your repository page.
+  2.Then click on the collaborator link that will be on the left side of the page
+  3. Once you are at the collaborator page enter the name of the person that you wish to collaborate with
+
+- ADD A CHANGE TO ANOTHER PERSON'S REPOSITORY ON GITHUB
+  1. Click on the fork icon that will create a clone of the repository in your account
+  2. Make whatever changes that you deem an improvement and push it back to your github
+  3. Create a pull request that will allow you to share a message of what you did to add to or improve on the other person's project
