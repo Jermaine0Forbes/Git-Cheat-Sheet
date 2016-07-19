@@ -11,3 +11,9 @@ alongside the other other one ... git ls-tree master^^
   1. Click on the fork icon that will create a clone of the repository in your account
   2. Make whatever changes that you deem an improvement and push it back to your github
   3. Create a pull request that will allow you to share a message of what you did to add to or improve on the other person's project
+
+- GRAPHICAL USER INTERFACE FOR GIT
+  - GitWeb : allows you to see your repository as little mini website
+  - GitX :
+  - TortoiseGit : http://code.google.com/p/tortoisegit
+  - List of GUI for git : https://git.wiki.kernel.orge/index.php/InterfacesFrontendsAndTools
