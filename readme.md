@@ -52,10 +52,15 @@
 ```
 - this changes the file path to a new location
 
+```
+	git mv oldFile.txt newFile.txt
+```
+- git mv also changes the file name
+
 [go back to home][home]
 
 
-### git
+### git checkout
 
 ```
 ```
