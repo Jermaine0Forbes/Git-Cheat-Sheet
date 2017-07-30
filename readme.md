@@ -63,25 +63,85 @@
 ### git checkout
 
 ```
+	git checkout -b <insert branch name>
 ```
-- summary
+- creates a new branch and switches to it
+
+```
+	git checkout <insert branch name>
+```
+- switches to a different branch
+
+```
+	git checkout <insert file name>
+```
+- undo working directory changes
+
+```
+	git checkout <insert commit id number> --<insert file name>
+```
+- retrieve old version of a file that has been committed
 
 [go back to home][home]
 
-### git
+### git stash
 
 ```
+	git stash save "insert message"
 ```
-- summary
+- saves a modified state from a branch that you don't want to add in the staging index
+
+```
+	git stash list
+```
+- shows a list of things that were saved in the stash
+
+```
+	git stash show <insert stash expression>
+```
+- shows what has been changed
+
+```
+	git stash show -p <insert stash expression>
+```
+- shows more in depth was has been changed
+
+```
+	git stash pop <insert stash expression>
+```
+- adds files that were in the stash to the current branch and removes the stash it as well
+
+```
+	git stash apply <insert stash expression>
+```
+- adds files that were in the stash to the current branch
+
+```
+	git stash drop <insert stash expression>
+```
+- removes the selected stash
+
+```
+	git stash clear
+``` 
+- clears out all the saved stashes
+
 
 [go back to home][home]
 
 
-### git
+### git remote
 
 ```
+	git remote
 ```
-- summary
+- shows all the remotes that we are working with
+
+```
+	git remote -v
+```
+- gives more information about the remotes in the repository
+
 
 [go back to home][home]
 
