@@ -142,23 +142,98 @@
 ```
 - gives more information about the remotes in the repository
 
+```
+	git remote rm <insert alias name>
+```
+- removes a remote
+
 
 [go back to home][home]
 
-### git
+### git branch
 
 ```
+	git branch
 ```
-- summary
+- shows all the branches 
+
+```
+	git branch <insert branch name> 
+```
+- creates a new branch
+
+```
+	git branch --mirror <insert git url> .git
+```
+- copies all the branches that are in the github repository
+
+```
+	git branch -r
+```
+- will show the remote branches, for example : **origin/master**
+
+```
+	git branch -a
+```
+- will show the remote branches and the other branches
+
+```
+	git branch -d <insert branch name>
+```
+- deletes a branch
+
+```
+	git branch -m <old branch name> <new branch name>
+```
+- changes the name of the branch
+
+```
+	git branch --merged
+```
+- shows which branches has all the commits to the selected branch
+
 
 [go back to home][home]
 
 
-### git
+### git log
 
 ```
+	git log
 ```
-- summary
+- shows all the committments made to the repository
+
+
+```
+	git log --oneline
+```
+- gives you a one line description of each commit log
+
+```
+	git log --since="Year-Month-Day"
+```
+- shows all the commit log since that date
+
+```
+	git log --until="Year-Month-Day"	
+```
+- shows all the commit logs until specified date
+
+```
+	git log --author="insert name"
+```
+- searches the commit log by the authors name
+
+```
+	git log --grep="insert any keyword"
+```
+- searches the commit log that has the keyword/s specified
+
+```
+	git log <insert commit id number>.. <insert file name> 
+```
+- searches the commit id through the most previous commit log to see if there were any changes to the file name
+
 
 [go back to home][home]
 
