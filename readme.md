@@ -1,7 +1,28 @@
 # git commands
 
-[home]:#git-commands
 
+- [how to remove folders from a git repository][remove-folder]
+
+[home]:#git-commands
+[remove-folder]:#how-to-remove-folders-from-a-git-repository
+
+### how to remove folders from a git repository
+- if you want to remove folders from you local git
+a.k.a your computer
+
+```
+	git rm -r <insert folder>
+```
+- if you want to remove a folder from a git repository
+
+```
+	git rm -r --cached <insert folder>
+``` 
+
+#### references
+- [How to remove a directory from git repository?](https://stackoverflow.com/questions/6313126/how-to-remove-a-directory-from-git-repository)
+
+[go back to home][home]
 
 ### git revert
 
