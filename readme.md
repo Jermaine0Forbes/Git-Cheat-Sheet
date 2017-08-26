@@ -1,10 +1,38 @@
 # git commands
 
-
+## how to
 - [how to remove folders from a git repository][remove-folder]
+- [how to remove a commit][rm-commit]
 
+## commands
+- [git revert][revert]
+- [git reset][reset]
+- [git rm][rm]
+- [git mv][mv]
+- [git checkout][checkout]
+- [git stash][stash]
+- [git remote][remote]
+- [git branch][branch]
+- [git log][log]
+
+[rm-commit]:#how-to-remove-a-commit
+[log]:#git-log
+[branch]:#git-branch
+[remote]:#git-remote
+[stash]:#git-stash
+[checkout]:#git-checkout
+[mv]:#git-mv
+[rm]:#git-rm
+[reset]:#git-reset
+[revert]:#git-revert
 [home]:#git-commands
 [remove-folder]:#how-to-remove-folders-from-a-git-repository
+
+
+### how to remove a commit
+1. Go to  git log --oneline
+2. copy the commit ID from the log
+3. and type git reset --hard <commitID>
 
 ### how to remove folders from a git repository
 - if you want to remove folders from you local git
@@ -17,7 +45,7 @@ a.k.a your computer
 
 ```
 	git rm -r --cached <insert folder>
-``` 
+```
 
 #### references
 - [How to remove a directory from git repository?](https://stackoverflow.com/questions/6313126/how-to-remove-a-directory-from-git-repository)
@@ -144,7 +172,7 @@ a.k.a your computer
 
 ```
 	git stash clear
-``` 
+```
 - clears out all the saved stashes
 
 
@@ -176,10 +204,10 @@ a.k.a your computer
 ```
 	git branch
 ```
-- shows all the branches 
+- shows all the branches
 
 ```
-	git branch <insert branch name> 
+	git branch <insert branch name>
 ```
 - creates a new branch
 
@@ -236,7 +264,7 @@ a.k.a your computer
 - shows all the commit log since that date
 
 ```
-	git log --until="Year-Month-Day"	
+	git log --until="Year-Month-Day"
 ```
 - shows all the commit logs until specified date
 
@@ -251,10 +279,9 @@ a.k.a your computer
 - searches the commit log that has the keyword/s specified
 
 ```
-	git log <insert commit id number>.. <insert file name> 
+	git log <insert commit id number>.. <insert file name>
 ```
 - searches the commit id through the most previous commit log to see if there were any changes to the file name
 
 
 [go back to home][home]
-
