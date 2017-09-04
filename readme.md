@@ -14,7 +14,10 @@
 - [git remote][remote]
 - [git branch][branch]
 - [git log][log]
+- [git push][push]
 
+
+[push]:#git-push
 [rm-commit]:#how-to-remove-a-commit
 [log]:#git-log
 [branch]:#git-branch
@@ -28,11 +31,43 @@
 [home]:#git-commands
 [remove-folder]:#how-to-remove-folders-from-a-git-repository
 
+### git push
+
+```
+	git push <alias name> <branch name>
+
+	// pushes branch to  up to server
+```
+
+```
+	git push -u <alias name> <branch name>
+
+	// pushes the branch up to the alias name and also tracks the branch
+
+```
+
+```
+	git push  <alias name> : <branch name>
+
+	// used to remove a remote branch
+```
+
+```
+	git push  <alias name> --delete <branch name> 
+
+	// removes a remote branch
+```
+
+
+
+[go back to home][home]
 
 ### how to remove a commit
-1. Go to  git log --oneline
+1. Go to ` git log --oneline`
 2. copy the commit ID from the log
-3. and type git reset --hard <commitID>
+3. and type `git reset --hard <commitID>`
+
+[go back to home][home]
 
 ### how to remove folders from a git repository
 - if you want to remove folders from you local git
@@ -182,19 +217,28 @@ a.k.a your computer
 ### git remote
 
 ```
-	git remote
+	git remote add <insert alias name>  <insert url>
+
+	// adds a url and assigns it to an alias name
 ```
-- shows all the remotes that we are working with
+
+```
+	git remote
+
+	// shows all the remotes that we are working with
+```
 
 ```
 	git remote -v
+
+	// gives more information about the remotes in the repository
 ```
-- gives more information about the remotes in the repository
 
 ```
 	git remote rm <insert alias name>
+
+	// removes a remote
 ```
-- removes a remote
 
 
 [go back to home][home]
