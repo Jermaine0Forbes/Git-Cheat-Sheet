@@ -53,7 +53,7 @@
 ```
 
 ```
-	git push  <alias name> --delete <branch name> 
+	git push  <alias name> --delete <branch name>
 
 	// removes a remote branch
 ```
@@ -284,6 +284,7 @@ a.k.a your computer
 	git branch --merged
 ```
 - shows which branches has all the commits to the selected branch
+
 
 
 [go back to home][home]
