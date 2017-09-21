@@ -3,6 +3,7 @@
 ## how to
 - [how to remove folders from a git repository][remove-folder]
 - [how to remove a commit][rm-commit]
+- [how to setup a basic git config][config]
 
 ## commands
 - [git revert][revert]
@@ -16,7 +17,7 @@
 - [git log][log]
 - [git push][push]
 
-
+[config]:#how-to-setup-a-basic-git-config
 [push]:#git-push
 [rm-commit]:#how-to-remove-a-commit
 [log]:#git-log
@@ -30,6 +31,18 @@
 [revert]:#git-revert
 [home]:#git-commands
 [remove-folder]:#how-to-remove-folders-from-a-git-repository
+
+
+### how to setup a basic git config 
+**reference**
+- [git configuration](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration)
+
+```
+ git config --global user.name "John Doe"
+ git config --global user.email johndoe@example.com
+```
+
+[go back home][home]
 
 ### git push
 
