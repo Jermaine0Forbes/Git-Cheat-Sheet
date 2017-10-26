@@ -3,6 +3,7 @@
 ## how to
 - [how to remove folders from a git repository][remove-folder]
 - [how to remove a commit][rm-commit]
+- [the differences between revert and reset][revert-reset]
 
 ## commands
 - [git revert][revert]
@@ -16,7 +17,7 @@
 - [git log][log]
 - [git push][push]
 
-
+[revert-reset]:#the-differences-between-revert-and-reset
 [push]:#git-push
 [rm-commit]:#how-to-remove-a-commit
 [log]:#git-log
@@ -30,6 +31,14 @@
 [revert]:#git-revert
 [home]:#git-commands
 [remove-folder]:#how-to-remove-folders-from-a-git-repository
+
+
+###  the differences between revert and reset
+I might explain something like this to myself. But I am too lazy right now to do it
+
+
+**reference**
+- [Reset, Checkout, and Revert](https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting)
 
 ### git push
 
