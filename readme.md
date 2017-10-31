@@ -16,7 +16,9 @@
 - [git branch][branch]
 - [git log][log]
 - [git push][push]
+- [git diff][diff]
 
+[diff]:#git-diff
 [revert-reset]:#the-differences-between-revert-and-reset
 [push]:#git-push
 [rm-commit]:#how-to-remove-a-commit
@@ -33,12 +35,38 @@
 [remove-folder]:#how-to-remove-folders-from-a-git-repository
 
 
+### git diff
+
+**reference**
+- [git diff options](https://git-scm.com/docs/git-diff)
+
+```
+git diff <commit id > <other commit id>
+```
+
+see the differences from one commit being compared to another
+
+```
+git diff <one branch> <second branch>
+```
+compares one branch to another branch
+
+```
+git diff <commit id > <other commit id> --name-only
+```
+lists all the files that have been changed
+
+[go back to home][home]
+
+
 ###  the differences between revert and reset
 I might explain something like this to myself. But I am too lazy right now to do it
 
 
 **reference**
 - [Reset, Checkout, and Revert](https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting)
+
+[go back to home][home]
 
 ### git push
 
