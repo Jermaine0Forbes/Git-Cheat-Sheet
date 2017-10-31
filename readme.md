@@ -4,6 +4,7 @@
 - [how to remove folders from a git repository][remove-folder]
 - [how to remove a commit][rm-commit]
 - [the differences between revert and reset][revert-reset]
+- [how to setup a basic git config][config]
 
 ## commands
 - [git revert][revert]
@@ -20,6 +21,7 @@
 
 [diff]:#git-diff
 [revert-reset]:#the-differences-between-revert-and-reset
+[config]:#how-to-setup-a-basic-git-config
 [push]:#git-push
 [rm-commit]:#how-to-remove-a-commit
 [log]:#git-log
@@ -67,6 +69,16 @@ I might explain something like this to myself. But I am too lazy right now to do
 - [Reset, Checkout, and Revert](https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting)
 
 [go back to home][home]
+### how to setup a basic git config
+**reference**
+- [git configuration](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration)
+
+```
+ git config --global user.name "John Doe"
+ git config --global user.email johndoe@example.com
+```
+
+[go back home][home]
 
 ### git push
 
