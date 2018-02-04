@@ -5,6 +5,7 @@
 - [how to remove a commit][rm-commit]
 - [the differences between revert and reset][revert-reset]
 - [how to setup a basic git config][config]
+- [how to push a branch to another branch][branch-to-branch]
 
 ## commands
 - [git revert][revert]
@@ -19,6 +20,7 @@
 - [git push][push]
 - [git diff][diff]
 
+[branch-to-branch]:#how-to-push-a-branch-to-another-branch
 [diff]:#git-diff
 [revert-reset]:#the-differences-between-revert-and-reset
 [config]:#how-to-setup-a-basic-git-config
@@ -36,6 +38,19 @@
 [home]:#git-commands
 [remove-folder]:#how-to-remove-folders-from-a-git-repository
 
+
+
+### How to push a branch to another branch
+
+**reference**
+- [push commits to another branch](https://stackoverflow.com/questions/13897717/push-commits-to-another-branch)
+
+```
+
+git push origin branch1:branch2
+```
+
+[go back home][home]
 
 ### git diff
 
